@@ -1,0 +1,758 @@
+/* Medium Desktop  */
+@media(max-width: 1440px) {
+    .testimonials_carousel .owl-nav .owl-prev {
+        left: -185px;
+    }
+
+    .testimonials_carousel .owl-nav .owl-next {
+        right: -185px;
+    }
+
+    .testimonial_slider {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+/* End  */
+
+
+/* Laptop  */
+@media(max-width: 1280px) {
+    .testimonials_carousel .owl-nav button img {
+        width: 40px;
+    }
+
+    .testimonials_carousel .owl-nav .owl-prev {
+        left: -115px;
+    }
+
+    .testimonials_carousel .owl-nav .owl-next {
+        right: -115px;
+    }
+}
+
+/* End  */
+
+
+/* Ipad Pro and Tablet  */
+@media(max-width: 1024px) {
+    .testimonials_carousel .owl-nav button img {
+        width: 30px;
+    }
+
+    .testimonials_carousel .owl-nav .owl-prev {
+        left: -100px;
+    }
+
+    .testimonials_carousel .owl-nav .owl-next {
+        right: -100px;
+    }
+
+    .intro_right {
+        text-align: right;
+    }
+
+    .intro_right img {
+        width: 90%;
+    }
+
+    .intro_content.intro_left {
+        flex-shrink: 0;
+    }
+
+    .component_content_wrp {
+        position: relative;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    .header_wrp {
+        padding-top: 90px;
+        padding-bottom: 85px;
+    }
+
+    .common_cta_inner_builder p br,
+    .part_sec_left p br,
+    .project_header_content p br {
+        display: none;
+    }
+
+    .part_sec_left {
+        max-width: 45%;
+        padding-right: 30px;
+    }
+
+    .breckpoint_sec_content {
+        padding: 73px 90px 65px 90px;
+    }
+
+    .common_cta_inner_builder {
+        padding: 60px 75px 85px 75px;
+    }
+
+    .mockups_plus_bg1 {
+        height: 720px;
+    }
+}
+
+/* End  */
+
+
+/* Ipad  */
+@media(max-width: 768px) {
+    .header_wrp {
+        padding-top: 50px;
+        padding-bottom: 70px;
+    }
+
+    .navbar_wrap {
+        padding: 0px 10px;
+        justify-content: space-between;
+    }
+
+    .brand_logo {
+        margin-left: 0;
+    }
+
+    .nav ul li:not(:last-child) a {
+        margin-right: 50px;
+    }
+
+    .intro_right {
+        text-align: right;
+        margin-top: -170px;
+    }
+
+    .list_wrap li:not(:last-child) a {
+        margin-right: 50px;
+    }
+
+    .intro_right img {
+        width: 60%;
+    }
+
+    .intro_content_wrapper {
+        justify-content: flex-start;
+        padding-bottom: 0;
+        flex-direction: column;
+    }
+
+    .compontent_box {
+        Width: 200px;
+    }
+
+    .portfolio_img_display img {
+        width: 100%;
+    }
+
+    .component_box_inner p br {
+        display: none;
+    }
+
+    .component_box_inner {
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
+
+    .about_edu_logo_top img,
+    .about_edu_logo_bottom img {
+        width: 35%;
+        height: auto;
+        z-index: -1;
+    }
+
+    .about_edu_logo_top {
+        top: 10%;
+    }
+
+    .about_edu_logo_bottom {
+        text-align: right;
+    }
+
+    .testimonials_carousel .owl-nav button img {
+        width: 20px;
+    }
+
+    .testimonials_carousel .owl-nav .owl-prev {
+        left: -70px;
+    }
+
+    .testimonials_carousel .owl-nav .owl-next {
+        right: -70px;
+    }
+
+    .testimonial_item p br {
+        display: none;
+    }
+
+    .testimonial_item p::before {
+        left: -3px;
+        top: -23px;
+    }
+
+    .testimonial_item p::after {
+        right: 1px;
+        bottom: 0px;
+    }
+
+    .footer_content {
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .footer_p {
+        padding-top: 100px;
+    }
+
+    .footer_nav_wrp {
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .footer_content {
+        padding: 0px 10px;
+    }
+
+
+    .project_header_content {
+        flex-direction: column;
+    }
+
+    .P_breckpint_logo {
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    .P_breckpint_logo img {
+        max-width: 50%;
+    }
+
+    .project_header_content h6 {
+        padding-bottom: 10px;
+    }
+
+    .project_header_content p {
+        padding-bottom: 50px;
+    }
+
+    .project_header_ri_con img {
+        width: 100%;
+        height: auto;
+    }
+
+    .project_header_bg {
+        right: 100px;
+        top: -78px;
+        width: 100%;
+    }
+
+    .breckpoint_sec_content {
+        padding: 70px 50px 70px 50px;
+    }
+
+    .project_sec_item {
+        max-width: 45%;
+    }
+
+    .project_sec_item img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .project_sec_item:not(:nth-last-of-type(-n+2)) {
+        padding-bottom: 40px;
+    }
+
+    .rg_item_wrp:not(:last-child) {
+        padding-right: 0;
+    }
+
+    .role_goal_content_wrp {
+        flex-direction: column;
+        max-width: 82%;
+        margin: auto;
+    }
+
+    .rg_item_wrp:first-child {
+        padding-bottom: 100px;
+    }
+
+    .project_part_heading h2 {
+        font-size: 37px;
+        line-height: 53px;
+    }
+
+    .part_sec_wrp {
+        flex-direction: column;
+    }
+
+    .part_sec_left {
+        max-width: 90%;
+        margin: auto;
+        padding-right: 0px;
+        padding-bottom: 50px;
+    }
+
+    .fintal_throught_content {
+        padding: 72px 50px 80px 50px;
+    }
+
+    .mockups_plus_bg1 {
+        height: auto;
+    }
+
+    .common_cta_inner_builder p {
+        font-size: 18px;
+        line-height: 29px;
+    }
+
+    .part_sec_wrp {
+        margin-bottom: 150px;
+    }
+
+    .page_navigation_wrp {
+        padding-bottom: 190px;
+    }
+
+    .final_throught_wrp {
+        margin-bottom: 180px;
+    }
+
+    .final_design {
+        margin-bottom: 160px;
+    }
+
+    .final_design:last-child {
+        margin-bottom: 180px;
+    }
+
+    .website_redesign_wrp p br {
+        display: none;
+    }
+
+    .flexibility_through_design .website_redesign_inner {
+        padding: 30px 40px 40px 40px;
+    }
+
+    .website_redesign_wrp p {
+        font-size: 20px;
+        line-height: 39px;
+    }
+}
+
+
+
+/* Mobile  */
+@media(max-width: 568px) {
+    .navbar_wrap {
+        flex-direction: column-reverse;
+    }
+
+    .header_wrp {
+        padding-top: 35px;
+        padding-bottom: 20px;
+    }
+
+    .nav ul li:not(:last-child) a {
+        margin-right: 23px;
+    }
+
+    .brand_logo {
+        padding-bottom: 12px;
+    }
+
+    .intro_content p {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .intro_content h2 {
+        font-size: 42px;
+        line-height: 47px;
+    }
+
+    .list_wrap li:not(:last-child) a {
+        margin-right: 50px;
+    }
+
+    .component_content_wrp {
+        box-shadow: 0px 15px 10px -15px rgba(0, 0, 0, 0.26);
+        -webkit-box-shadow: 0px 15px 10px -15px rgba(0, 0, 0, 0.26);
+        -moz-box-shadow: 0px 15px 10px -15px rgba(0, 0, 0, 0.26);
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 57px;
+    }
+
+    .portfolio_comp_inner {
+        flex-direction: column;
+    }
+
+    .port_bottom_dolp img {
+        width: 200px;
+    }
+
+    .port_bottom_dolp {
+        right: 0px;
+        bottom: -103px;
+    }
+
+    .compontent_box {
+        Width: 75%;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+
+    .component_box_inner {
+        padding-top: 33px;
+    }
+
+    .portfolio_img_display {
+        align-items: inherit;
+    }
+
+    .compontent_box:hover::after {
+        transform: scale(1.05);
+    }
+
+    .portfolio_common_heading h2 {
+        font-size: 37px;
+        line-height: 61px;
+    }
+
+    .portfolio_common_heading p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .intro_content_wrapper {
+        padding-bottom: 60px;
+    }
+
+    .portfolio_component_wrp {
+        padding-bottom: 150px;
+    }
+
+    .about_edu_item {
+        height: 230px;
+    }
+
+    .about_edu_item:not(:last-child) {
+        margin-bottom: 70px;
+    }
+
+    .about_edu_logo_bottom {
+        bottom: -4%;
+    }
+
+    .about_edu_wrp {
+        padding-bottom: 170px;
+    }
+
+    .testimonial_slider {
+        padding-left: 10px;
+        padding-right: 15px;
+        padding-top: 20px;
+        padding-bottom: 60px;
+        width: 77%;
+        height: auto;
+    }
+
+    .testimonial_item p {
+        font-size: 18px;
+        line-height: 27px;
+        margin-bottom: 40px;
+    }
+
+    .testimonial_item p::after,
+    .testimonial_item p::before {
+        width: 25px;
+        height: 20px;
+        background-size: 100% 100%;
+    }
+
+    .testimonial_item p::before {
+        left: 2px;
+        top: -3px;
+    }
+
+    .testimonial_item {
+        padding-top: 40px;
+    }
+
+    .testimonial_item b {
+        margin-bottom: 40px;
+    }
+
+    .testimonial_dolpin_bg img {
+        width: 200px;
+    }
+
+    .testimonial_dolpin_bg {
+        position: absolute;
+        left: -42px;
+        bottom: -62px;
+    }
+
+    .testimonials_carousel .owl-nav .owl-prev {
+        left: -45px;
+    }
+
+    .testimonials_carousel .owl-nav .owl-next {
+        right: -45px;
+    }
+
+    .intro_content_wrapper {
+        padding-bottom: 60px;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .list_wrap {
+        justify-content: center;
+    }
+
+    .intro_right {
+        display: block;
+    }
+
+    .intro_right {
+        text-align: center;
+        margin-top: 0;
+    }
+
+    .intro_right img {
+        width: 100%;
+    }
+
+    .testimonial_wrap {
+        margin-bottom: 145px;
+    }
+
+    .contact_content p {
+        text-align: center;
+        padding-bottom: 7px;
+        font-size: 17px;
+        line-height: 21px;
+    }
+
+    .contact_content p span {
+        display: block;
+    }
+
+    .contact_content a {
+        display: block;
+        font-size: 20px;
+    }
+
+    .contact_content {
+        height: 150px;
+    }
+
+    .contact_wrap {
+        padding-bottom: 110px;
+    }
+
+    .footer_nav_wrp {
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .footer_p p {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .footer_p {
+        padding-top: 35px;
+    }
+
+    .footer_wrp {
+        padding-bottom: 50px;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .testimonials_logo img {
+        width: 40% !important;
+    }
+
+    .testimonials_carousel .owl-nav button {
+        top: 36%;
+    }
+
+    .project_logo_w {
+        padding-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .project_header_content h2 {
+        font-size: 40px;
+        line-height: 47px;
+        padding-bottom: 27px;
+    }
+
+    .project_header_wrp {
+        padding-bottom: 100px;
+    }
+
+    .breckpoint_sec_content {
+        padding: 25px 20px 25px 20px;
+        margin-bottom: 75px;
+    }
+
+    .project_sec_item {
+        max-width: 100%;
+    }
+
+    .project_sec_item:not(:last-child) {
+        padding-bottom: 40px;
+    }
+
+    .rg_heading h2 {
+        font-size: 40px;
+        line-height: 70px;
+    }
+
+    .rg_heading {
+        padding-bottom: 25px;
+    }
+
+    .role_goal_content_wrp {
+        max-width: 99%;
+    }
+
+    .rg_item_wrp:first-child {
+        padding-bottom: 60px;
+    }
+
+    .project_role_and_goal {
+        padding-bottom: 100px;
+    }
+
+    .part_sec_left {
+        max-width: 99%;
+        padding-bottom: 25px;
+    }
+
+    .part_sec_wrp {
+        margin-bottom: 85px;
+    }
+
+    .part_sec_left h4 {
+        padding-bottom: 25px;
+    }
+
+    .project_part_heading h2 {
+        line-height: 47px;
+    }
+
+    .project_part_heading {
+        padding-bottom: 75px;
+    }
+
+    .common_cta_inner_builder {
+        padding: 30px 20px 35px 20px;
+    }
+
+    .common_cta_inner_builder h4 {
+        font-size: 24px;
+        line-height: 30px;
+        padding-bottom: 33px;
+    }
+
+    .fintal_throught_content h4 {
+        font-size: 27px;
+        padding-bottom: 30px;
+    }
+
+    .fintal_throught_content {
+        padding: 40px 20px 50px 20px;
+    }
+
+    .fintal_throught_content p {
+        font-size: 18px;
+        line-height: 33px;
+    }
+
+    .final_throught_wrp {
+        margin-bottom: 90px;
+    }
+
+    .page_navi_list_wrp {
+        justify-content: space-between;
+        width: 90%;
+        margin: auto;
+    }
+
+    .page_navigation_wrp {
+        padding-bottom: 100px;
+    }
+
+    .final_design {
+        margin-bottom: 90px;
+    }
+
+    .final_design:last-child {
+        margin-bottom: 110px;
+    }
+
+    .project_logo_w {
+        text-align: left;
+    }
+
+    .P_breckpint_logo img {
+        max-width: 70%;
+    }
+
+    .project_sec_item {
+        margin: auto;
+    }
+
+    .p_sq_logo {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .p_sq_logo img {
+        max-width: 40%;
+    }
+
+    .website_redesign_inner {
+        padding: 40px 20px;
+    }
+
+    .website_redesign_wrp p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .website_redesign_wrp h4 {
+        font-size: 27px;
+        line-height: 35px;
+        margin-bottom: 30px;
+    }
+
+    .website_redesign_wrp {
+        height: auto;
+    }
+
+    .marravo_list_wrap p {
+        font-size: 16px;
+        line-height: 23px;
+        bottom: -54px;
+    }
+
+    .flexibility_through_design .website_redesign_inner {
+        padding: 40px 15px 70px 20px;
+    }
+
+    .flexibility_through_design {
+        margin-bottom: 80px;
+    }
+}
